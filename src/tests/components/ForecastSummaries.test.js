@@ -9,7 +9,7 @@ describe("Forecast Summaries", () => {
       {
         date: 1111111,
         description: "Stub description1",
-        icon: "600",
+        icon: 600,
         temperature: {
           min: 12,
           max: 22,
@@ -19,7 +19,7 @@ describe("Forecast Summaries", () => {
       {
         date: 2222222,
         description: "Stub description2",
-        icon: "800",
+        icon: 800,
         temperature: {
           min: 13,
           max: 24,
