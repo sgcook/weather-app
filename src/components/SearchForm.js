@@ -9,8 +9,6 @@ function SearchForm({ searchText, setSearchText, onSubmit }) {
       <label htmlFor="search">
         <input
           type="text"
-          name="search"
-          id="search"
           placeholder="Search City"
           onChange={handleInputChange}
           value={searchText}
