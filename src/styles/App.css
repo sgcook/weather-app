@@ -1,7 +1,12 @@
 body {
   background-color: aliceblue;
+  font-size: 20px;
 }
 
 .weather-app {
   margin: 0 20px;
+}
+
+.forecast-summary__date {
+  font-weight: bold;
 }

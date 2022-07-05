@@ -1,0 +1,9 @@
+.forecast-summary {
+  text-align: center;
+}
+
+.forecast-summary__button {
+  border-radius: 15%;
+  background-color:rgb(222, 196, 247);
+  border-style: hidden;
+}

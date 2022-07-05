@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
+import "../styles/SearchForm.css";
 
 function SearchForm({ searchText, setSearchText, onSubmit }) {
   const handleInputChange = (event) => setSearchText(event.target.value);
+
+  useEffect(() => {
+    const listener = (e) => {
+      if (e.code === "Enter" || e.code === "NumpadEnter") {
+        e.preventDefault();
+        onSubmit();
+      }
+    };
+
+    document.addEventListener("keydown", listener);
+    return () => {
+      document.removeEventListener("keydown", listener);
+    };
+  }, [onSubmit]);
 
   return (
     <div className="search-form">
@@ -11,10 +26,10 @@ function SearchForm({ searchText, setSearchText, onSubmit }) {
           type="text"
           placeholder="Search City"
           onChange={handleInputChange}
-          value={searchText}
+          value={searchText.toUpperCase()}
         />
       </label>
-      <button type="submit" onClick={onSubmit}>
+      <button type="submit" onClick={onSubmit} className="search-button">
         Search
       </button>
     </div>
