@@ -8,7 +8,7 @@ This app was built as part of my coursework at Manchester Codes. I practiced usi
 
 ## Teach/framework used
 
-### Built with
+### Built with:
 
 - React (Front-end framework)
 - Jest (Testing library)
