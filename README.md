@@ -8,7 +8,7 @@ This app was built as part of my coursework at Manchester Codes. I practiced usi
 
 ## Teach/framework used
 
-** Built with **
+### Built with
 
 - React (Front-end framework)
 - Jest (Testing library)
@@ -20,11 +20,11 @@ This app was built as part of my coursework at Manchester Codes. I practiced usi
 Run these commands in the terminal:\
 `$npm install` to install code dependencies\
 `$npm start` to start the app in the browser\
-`npm test` to test the app
+`$npm test` to test the app
 
 ## API
 
-The app makes calls to this API: [Click to see API documentation](mcr-codes-weather-app.herokuapp.com)
+The app makes calls to this API: [click to see API documentation](mcr-codes-weather-app.herokuapp.com)
 
 ## Dev dependencies
 
