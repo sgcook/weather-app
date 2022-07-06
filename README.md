@@ -24,7 +24,7 @@ Run these commands in the terminal:\
 
 ## API
 
-The app makes calls to this API: mcr-codes-weather-app.herokuapp.com\
+The app makes calls to this API: [mcr-codes-weather-app.herokuapp.com]\
 Click link above to see API documentation
 
 ## Dev dependencies
@@ -34,5 +34,3 @@ Click link above to see API documentation
 - JSX-ally
 - React
 - React hooks
-
-## If mo
