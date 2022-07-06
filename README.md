@@ -24,7 +24,7 @@ Run these commands in the terminal:\
 
 ## API
 
-The app makes calls to this API: [Click to see API documentation] (mcr-codes-weather-app.herokuapp.com)
+The app makes calls to this API: [Click to see API documentation](mcr-codes-weather-app.herokuapp.com)
 
 ## Dev dependencies
 
