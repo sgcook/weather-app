@@ -17,9 +17,9 @@ function App() {
     (forecast) => forecast.date === selectedDate
   );
 
-  function handleForecastSelect(date) {
+  const handleForecastSelect = (date) => {
     setSelectedDate(date);
-  }
+  };
 
   const handleCitySearch = () => {
     getForecast(
