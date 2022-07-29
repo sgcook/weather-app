@@ -6,7 +6,9 @@ A weather app that allows the user to search for the weather in cities around th
 
 This app was built as part of my coursework at Manchester Codes. I practiced using React, useState, and useEffect.
 
-## Teach/framework used
+## Desktop Version:
+
+![desktop version](./src/screenshot.png)
 
 ### Built with:
 
