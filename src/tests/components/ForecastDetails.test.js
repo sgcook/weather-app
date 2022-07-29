@@ -24,4 +24,14 @@ describe("Forecast Details", () => {
     );
     expect(asFragment()).toMatchSnapshot();
   });
+
+  it("displays humidity prop", () => {
+    const { getByText } = render(
+      <ForecastDetails forecast={validProps.forecast} />
+    );
+
+    expect(
+      getByText(`Humidity: ${validProps.forecast.humidity}`)
+    ).toBeInTheDocument();
+  });
 });
