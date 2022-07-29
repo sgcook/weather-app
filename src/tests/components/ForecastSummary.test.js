@@ -39,11 +39,9 @@ describe("Forecast Summary", () => {
       />
     );
 
-    expect(getByText("Thu Jan 01 1970")).toHaveClass("forecast-summary__date");
-    expect(getByText("Stub description")).toHaveClass(
-      "forecast-summary__description"
-    );
-    expect(getByTestId("forecast-icon")).toHaveClass("forecast-summary__icon");
-    expect(getByText("22°C")).toHaveClass("forecast-summary__temperature");
+    expect(getByText("Thu Jan 01 1970")).toBeInTheDocument();
+    expect(getByText("Stub description")).toBeInTheDocument();
+    expect(getByTestId("forecast-icon")).toBeInTheDocument();
+    expect(getByText("22°C")).toBeInTheDocument();
   });
 });
