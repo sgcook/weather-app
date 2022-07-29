@@ -5,8 +5,8 @@ import SearchForm from "../../components/SearchForm";
 describe("Search Form", () => {
   const validProps = {
     searchText: "London, UK",
-    setSearchText: () => {},
-    onSumbit: () => {},
+    setSearchText: jest.fn,
+    onSubmit: jest.fn,
   };
 
   it("renders correctly", () => {
