@@ -11,10 +11,11 @@ exports[`Search Form renders correctly 1`] = `
       <input
         placeholder="Search City"
         type="text"
-        value="London, UK"
+        value="LONDON, UK"
       />
     </label>
     <button
+      class="search-button"
       type="submit"
     >
       Search
