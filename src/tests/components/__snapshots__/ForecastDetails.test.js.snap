@@ -11,12 +11,12 @@ exports[`Forecast Details renders correctly 1`] = `
       Thu Jan 01 1970
     </div>
     <div
-      class="forecast-summary__maxTemperature"
+      class="forecast-summary__max-temperature"
     >
       Max: 22°C
     </div>
     <div
-      class="forecast-summary__minTemperature"
+      class="forecast-summary__min-temperature"
     >
       Min: 12°C
     </div>

@@ -13,7 +13,8 @@ This app was built as part of my coursework at Manchester Codes. I practiced usi
 - React (Front-end framework)
 - Jest (Testing library)
 - Axios (Making HTTP requests to the API)
-- Prettier (Keeps code to the style guide)
+- PropTypes (Checking proptypes in React)
+- React-Icons-Weather (Rendering weather icons)
 
 ## How to use
 
@@ -28,8 +29,11 @@ The app makes calls to this API: [click to see API documentation](mcr-codes-weat
 
 ## Dev dependencies
 
-- Airbnb (used as the style guide)
-- Import
-- JSX-ally
-- React
-- React hooks
+- Prettier
+- Eslint
+
+## If more time...
+
+- Make the app mobile friendly
+
+Author: Sara Cook

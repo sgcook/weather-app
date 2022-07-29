@@ -13,8 +13,6 @@ function LocationDetails(props) {
   return <h1>Search for the weather!</h1>;
 }
 
-export default LocationDetails;
-
 LocationDetails.defaultProps = {
   errorMessage: "",
 };
@@ -24,3 +22,5 @@ LocationDetails.propTypes = {
   country: PropTypes.string.isRequired,
   errorMessage: PropTypes.string,
 };
+
+export default LocationDetails;

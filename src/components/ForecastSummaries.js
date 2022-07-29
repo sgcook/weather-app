@@ -20,8 +20,6 @@ function ForecastSummaries({ forecasts, onForecastSelect }) {
   );
 }
 
-export default ForecastSummaries;
-
 ForecastSummaries.propTypes = {
   forecasts: PropTypes.arrayOf(
     PropTypes.shape({
@@ -36,3 +34,5 @@ ForecastSummaries.propTypes = {
   ).isRequired,
   onForecastSelect: PropTypes.func.isRequired,
 };
+
+export default ForecastSummaries;

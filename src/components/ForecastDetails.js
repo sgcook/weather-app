@@ -10,10 +10,10 @@ function ForecastDetails({ forecast }) {
   return (
     <div className="forecast-details">
       <div className="forecast-summary__date">{formattedDate}</div>
-      <div className="forecast-summary__maxTemperature">
+      <div className="forecast-summary__max-temperature">
         Max: {temperature.max}&deg;C
       </div>
-      <div className="forecast-summary__minTemperature">
+      <div className="forecast-summary__min-temperature">
         Min: {temperature.min}&deg;C
       </div>
       <div className="forecast-summary__humidity">Humidity: {humidity}</div>
@@ -24,8 +24,6 @@ function ForecastDetails({ forecast }) {
     </div>
   );
 }
-
-export default ForecastDetails;
 
 ForecastDetails.propTypes = {
   forecast: PropTypes.shape({
@@ -40,6 +38,7 @@ ForecastDetails.propTypes = {
     }),
     humidity: PropTypes.number,
     description: PropTypes.string,
-    icon: PropTypes.string,
   }).isRequired,
 };
+
+export default ForecastDetails;

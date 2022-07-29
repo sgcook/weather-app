@@ -20,13 +20,7 @@ describe("Forecast Details", () => {
 
   it("renders correctly", () => {
     const { asFragment } = render(
-      <ForecastDetails
-        forecast={validProps.forecast}
-        date={validProps.forecast.date}
-        humidity={validProps.forecast.humidity}
-        temperature={validProps.forecast.temperature}
-        wind={validProps.forecast.wind}
-      />
+      <ForecastDetails forecast={validProps.forecast} />
     );
     expect(asFragment()).toMatchSnapshot();
   });
